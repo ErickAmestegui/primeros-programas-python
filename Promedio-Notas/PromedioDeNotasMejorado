@@ -1,0 +1,15 @@
+print("PROMEDIO PONDERADO")
+
+primer_examen = float(input("Nota del primer examen: "))
+segundo_examen = float(input("Nota del segundo examen: "))
+examen_final = float(input("Nota del examen final: "))
+proyecto = float(input("Nota del proyecto: "))
+
+nota_final = (primer_examen * 0.30 + segundo_examen * 0.30 +examen_final * 0.30 + proyecto * 0.10)
+
+print("Tu nota final es:", nota_final)
+
+if nota_final >= 51:
+    print("Resultado: Aprobado")
+else:
+    print("Resultado: Reprobado")
